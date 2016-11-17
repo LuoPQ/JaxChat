@@ -1,0 +1,27 @@
+{
+  "name": "jax-chat",
+  "version": "1.0.0",
+  "description": "just for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuoPQ/JaxChat.git"
+  },
+  "keywords": [
+    "node",
+    "websockt"
+  ],
+  "author": "Jax Luo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuoPQ/JaxChat/issues"
+  },
+  "homepage": "https://github.com/LuoPQ/JaxChat#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.5.1"
+  }
+}
