@@ -1,0 +1,88 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: url("../images/jaxchat_bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.jax-chat-box {
+    max-height: 800px;
+    max-width: 1000px;
+    height: 100%;
+    margin: 100px auto;
+}
+
+.jax-chat-box-left-panel {
+    width: 280px;
+    height: 100%;
+    float: left;
+    background: #2e3238;
+}
+
+.jax-chat-box-left-panel-header {
+    height: 76px;
+}
+
+.jax-chat-box-left-panel-header img {
+    margin: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.jax-chat-box-left-panel-header-info {
+    width: 190px;
+    display: inline-block;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    line-height: 76px;
+    margin-left: -10px;
+}
+
+.jax-chat-box-left-panel-header-info .nickname {
+    float: left;
+    font-size: 16px;
+}
+
+.jax-chat-box-left-panel-header-info .menu {
+    float: right;
+    background: url("../images/sprite.png") 0 -406px;
+    width: 30px;
+    height: 30px;
+    margin-top: 23px;
+}
+
+.jax-chat-box-left-panel-search-box {
+    width: 244px;
+    margin: 0 auto 6px;
+    position: relative;
+
+}
+
+.jax-chat-box-left-panel-search-box .search-icon {
+    background: url("../images/sprite.png") 0 -1946px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 100;
+    top: 1px
+}
+
+.jax-chat-box-left-panel-search-box .search-text {
+    width: 214px;
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    border-radius: 2px;
+    background-color: #26292E;
+    color: #fff;
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+
